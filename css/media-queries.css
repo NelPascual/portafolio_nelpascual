@@ -1,0 +1,44 @@
+@media (max-width:1023px) {
+	/* +++++++++++++++ MAIN - JOBS +++++++++++++++ */
+	/* .jobs .jobs-container {
+		justify-content: center;
+	} */
+
+	.jobs-container .job {
+		width: 49%;
+	}
+}
+
+@media (max-width:600px) {
+	/* +++++++++++++++ HEADER +++++++++++++++ */
+	.menu {
+		justify-content: center;
+	}
+
+	.text-container .text {
+		padding: 2rem 4rem;
+	}
+
+	.text .name {
+		font-size: 3.5rem;
+	}
+	
+	.text .profession {
+		font-size: 1.5rem;
+	}
+
+	/* +++++++++++++++ MAIN - JOBS +++++++++++++++ */
+	.jobs .jobs-container {
+		justify-content: center;
+	}
+
+	.jobs-container .job {
+		width: 95%;
+	}
+
+	/* +++++++++++++++ FOOTER - CONTACT +++++++++++++++ */
+	.form input[type="text"],
+	.form input[type="email"] {
+		width: 100%;
+	}
+}
